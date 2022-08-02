@@ -1,6 +1,6 @@
 import tkinter as tk
 from PIL import ImageTk, Image
-
+"""製作人:陳永順"""
 
 
 def math():
@@ -75,7 +75,7 @@ btn1.place(x=0, y=0)
 # 標籤Label
 produ1 =tk.Label(win,text="調味料",bg="white",fg="black",font=("Helvetica", 10))  # 建立文字 label建立文件
 produ1.place(x=100, y=180)                           #品名
-name =tk.Label(win,text="王曉明",bg="white",fg="black",font=("Helvetica", 10))  # 建立文字 label建立文件
+name =tk.Label(win,text="阿貴",bg="white",fg="black",font=("Helvetica", 10))  # 建立文字 label建立文件
 name.place(x=165, y=80)                           #買受人
 c=Image.open("seall.png")                         #載入圖片
 img1=ImageTk.PhotoImage(c)                          #轉換成PhotoImage
